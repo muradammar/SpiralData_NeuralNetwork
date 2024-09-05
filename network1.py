@@ -414,26 +414,7 @@ for epoch in range(10001):
     optimizer.update_params(dense2)
     optimizer.post_update_params()
     
-# Plotting loss over epochs
-plt.figure(figsize=(12, 6))
 
-# Plot loss
-plt.subplot(1, 2, 1)
-plt.plot(range(10001), losses, label='Loss')
-plt.xlabel('Epochs')
-plt.ylabel('Loss')
-plt.title('Training Loss over Epochs')
-plt.legend()
-
-# Plot accuracy
-plt.subplot(1, 2, 2)
-plt.plot(range(10001), accuracies, label='Accuracy', color='orange')
-plt.xlabel('Epochs')
-plt.ylabel('Accuracy')
-plt.title('Training Accuracy over Epochs')
-plt.legend()
-
-plt.savefig('/mnt/c/Users/murad/OneDrive/Documents/Desktop/Code projects/neural_networks/one/plot.png') 
   
 
 
