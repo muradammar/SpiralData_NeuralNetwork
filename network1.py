@@ -1,9 +1,3 @@
-#This is not the final version of this code
-#Here are the following resources I used
-#nnfs.io - this book provided me with the structure of the code
-#3blue1brown(youtube) - these videos gave me an intuition for the underlying mathematics
-#deepbean(youtube) - these videos gave me an inuition for the various optimizers
-
 import numpy as np
 import nnfs
 import matplotlib.pyplot as plt
@@ -413,32 +407,3 @@ for epoch in range(10001):
     optimizer.update_params(dense1)
     optimizer.update_params(dense2)
     optimizer.post_update_params()
-    
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Resources
-# Deep Bean
-# nnfs
-# 3blue1brown
